@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.157" height="30.156" viewBox="0 0 30.157 30.156">
+  <g id="Plus_Button" data-name="Plus Button" transform="translate(0 15.078) rotate(-45)">
+    <rect id="Rectangle_3900" data-name="Rectangle 3900" width="21.324" height="21.324" rx="10.662" fill="#2d2a4b"/>
+    <g id="Add" transform="translate(5.194 5.194)">
+      <path id="Union_1" data-name="Union 1" d="M4.784,10.936V6.151H0V4.784H4.784V0H6.151V4.784h4.784V6.151H6.151v4.784Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,169 @@
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+        margin: 1em;
+    }
+}
+
+.white-button {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    text-align: center;
+    width: 100px;
+    padding: 8px 15px;
+    color: var(--main-color);
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.white-button:hover,
+.white-button-active {
+    transition: all 0.2s linear;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+}
+
+.gray-border-button {
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid #a4a2e6;
+    font-size: 10px;
+    text-align: center;
+    transition: all 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.border-purple {
+    border: 1px solid var(--light-purple);
+}
+
+.gray-border-button:hover,
+.gray-border-button-active {
+    background-color: #a4a2e6;
+    color: var(--white);
+}
+
+.filters-button,
+.group-actions-button {
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.filters-button {
+    background-color: var(--main-color);
+    color: var(--white);
+    width: 100px;
+}
+
+// .filters-button:hover {
+//     background-color: var(--light-purple);
+// }
+
+.group-actions-button {
+    background-color: white;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    width: 140px;
+}
+
+.group-actions-button:hover,
+.group-actions-button-active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.light-purple-circle-button {
+    border-radius: 50%;
+    --b: 4px; /* the thickness */
+    width: 20px; /* the size */
+    height: 20px;
+    aspect-ratio: 1/1;
+    border: 10px solid var(--light-purple); /* the outer space */
+    background: conic-gradient(from 90deg at var(--b) var(--b), var(--light-purple) 90deg, #fff 0)
+        calc(100% + var(--b) / 2) calc(100% + var(--b) / 2) / calc(50% + var(--b)) calc(50% + var(--b));
+    display: inline-block;
+    box-shadow: 0px 0px 5px rgba(46, 46, 46, 0.3);
+    cursor: pointer;
+}
+
+.light-purple-button,
+.error-button {
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: auto;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    img {
+        margin-left: 15px;
+        width: 20px;
+    }
+    // border: 3px solid var(--light-purple);
+}
+
+.light-purple-button {
+    border: 1px solid var(--light-purple);
+    background-color: var(--light-purple);
+}
+
+.light-purple-button:hover {
+    background-color: #c3c1f7;
+}
+
+.error-button {
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
+}
+
+.error-button:hover {
+    background-color: #fa559f;
+}
+
+.gray-button {
+    border-radius: 10px;
+    background-color: #d8dbed;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.main-color-button {
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    > img {
+        margin-left: 15px;
+        width: 20px;
+    }
+}
+
+.main-color-button:hover {
+    background-color: #494577;
+}
